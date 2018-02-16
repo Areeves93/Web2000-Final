@@ -1,0 +1,33 @@
+@keyframes edge-width {
+  from {
+    width: 0;
+  }
+  to {
+    width: 39px;
+  }
+}
+
+@keyframes edge-height {
+  from {
+    height: 0;
+  }
+  to {
+    height: 39px;
+  }
+}
+
+.dot {
+    width: 11px;
+    height: 11px;
+    margin: 11px;
+}
+
+.left-teal {width: 39px; top: 16px;}
+.left-purple {width: 39px; top: 16px;}
+.right-teal {width: 39px; top: 16px;}
+.right-purple {width: 39px; top: 16px;}
+
+.up-teal {height: 39px; right: 16px;}
+.up-purple {height: 39px; right: 16px;}
+.down-teal {height: 39px; right: 16px;}
+.down-purple {height: 39px; right: 16px;}

@@ -1,0 +1,50 @@
+@keyframes dot-appear {
+  from {
+    opacity: 0;
+    transform: scale(0.01);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes edge-width {
+  from {
+    width: 0;
+  }
+  to {
+    width: 53px;
+  }
+}
+
+@keyframes edge-height {
+  from {
+    height: 0;
+  }
+  to {
+    height: 53px;
+  }
+}
+
+@keyframes tealscore {
+  from {
+    color:teal;
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+    color:teal;
+  }
+}
+
+@keyframes purplescore {
+  from {
+    color:purple;
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+    color:purple;
+  }
+}
